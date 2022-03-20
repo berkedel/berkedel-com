@@ -1,0 +1,58 @@
+baseURL = "https://berkedel.com/"
+title = "Berkedel"
+theme = "hugo-coder"
+languageCode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Akhmad Syaikhul Hadi"
+  info = "Software Engineer"
+  description = "A personal blog"
+  keywords = "blog,developer,personal"
+  gravatar = "akhmad.hadi@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  hideFooter = false
+  hideCredits = true
+  hideCopyright = false
+  since = 2021
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/berkedel/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/berkedel/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/berkedel/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/akhmadshadi/"
